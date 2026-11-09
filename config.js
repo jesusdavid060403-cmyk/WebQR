@@ -28,6 +28,6 @@ window.CONFIG = {
     { src: "05.jpg", alt: "Foto 5 de la actividad" },
     { src: "06.jpg", alt: "Foto 6 de la actividad" }
   ],
-  recuerdo: { foto: "assets/img/portada/oveja.jpg" },
+  recuerdo: { foto: "oveja.jpg" },
   compartir: { texto: "Te invito a ¿Quién es la 100? Sábado 14 de noviembre, 4:00 p. m., Auditorio Luz y Paz. Presenta Nexus Juvenil." }
 };
