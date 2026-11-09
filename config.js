@@ -16,9 +16,9 @@ window.CONFIG = {
     lema: "Hay un gozo que comienza cuando alguien es encontrado"
   },
   video: {
-    src: "assets/video/intro.mp4",
-    poster: "assets/video/poster.jpg"
-  },
+  src: "intro.mp4",
+  poster: "poster.jpg"
+},
   // Para añadir una foto: cópiala a assets/img/galeria/ y agrega una línea.
   galeria: [
     { src: "assets/img/galeria/01.jpg", alt: "Foto 1 de la actividad" },
