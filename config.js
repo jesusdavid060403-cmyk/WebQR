@@ -20,13 +20,13 @@ window.CONFIG = {
   poster: "poster.jpg"
 },
   // Para añadir una foto: cópiala a assets/img/galeria/ y agrega una línea.
-  galeria: [
-    { src: "assets/img/galeria/01.jpg", alt: "Foto 1 de la actividad" },
-    { src: "assets/img/galeria/02.jpg", alt: "Foto 2 de la actividad" },
-    { src: "assets/img/galeria/03.jpg", alt: "Foto 3 de la actividad" },
-    { src: "assets/img/galeria/04.jpg", alt: "Foto 4 de la actividad" },
-    { src: "assets/img/galeria/05.jpg", alt: "Foto 5 de la actividad" },
-    { src: "assets/img/galeria/06.jpg", alt: "Foto 6 de la actividad" }
+ galeria: [
+    { src: "01.jpg", alt: "Foto 1 de la actividad" },
+    { src: "02.jpg", alt: "Foto 2 de la actividad" },
+    { src: "03.jpg", alt: "Foto 3 de la actividad" },
+    { src: "04.jpg", alt: "Foto 4 de la actividad" },
+    { src: "05.jpg", alt: "Foto 5 de la actividad" },
+    { src: "06.jpg", alt: "Foto 6 de la actividad" }
   ],
   recuerdo: { foto: "assets/img/portada/oveja.jpg" },
   compartir: { texto: "Te invito a ¿Quién es la 100? Sábado 14 de noviembre, 4:00 p. m., Auditorio Luz y Paz. Presenta Nexus Juvenil." }
