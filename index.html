@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>¿Quién es la 100? | Nexus Juvenil</title>
+<meta name="description" content="Sábado 14 de noviembre · 4:00 p. m. · Auditorio Luz y Paz. La profunda e indetenible búsqueda. Presenta Nexus Juvenil.">
+<meta name="theme-color" content="#221E1F">
+<meta property="og:type" content="website">
+<meta property="og:title" content="¿Quién es la 100? | Nexus Juvenil">
+<meta property="og:description" content="Sábado 14 de noviembre · 4:00 p. m. · Auditorio Luz y Paz.">
+<!-- Tras publicar, cambia esta ruta por la URL completa: https://TU-USUARIO.github.io/quien-es-la-100/assets/img/og/og.jpg -->
+<meta property="og:image" content="assets/img/og/og.jpg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alice&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.className="js"</script>
+</head>
+<body>
+<main class="pagina">
+
+<header class="portada marco" id="inicio">
+  <div class="cabecera"><span>Últimas noticias</span><span aria-hidden="true">❦</span><span>Urgente</span></div>
+  <div class="cuerpo">
+    <p class="sebusca" style="--i:0" aria-hidden="true"><span>★</span>SE BUSCA!<span>★</span></p>
+    <p class="cinta cinta-sm" style="--i:1">La profunda e indetenible búsqueda</p>
+    <figure class="retrato" style="--i:2"><img src="assets/img/portada/oveja.jpg" width="840" height="684" alt="Una oveja mira de frente a la cámara" fetchpriority="high"></figure>
+    <p class="cien" style="--i:3" aria-hidden="true">100</p>
+    <h1 class="cinta cinta-xl" style="--i:4">¿Quién es la 100?</h1>
+    <p class="datos" style="--i:5"><span data-cfg="evento.lugar">Auditorio Luz y Paz</span><span data-cfg="evento.horaCorta">4:00 PM</span><span data-cfg="evento.fechaCorta">14/11</span></p>
+    <p class="presenta" style="--i:6">Presenta <strong>Nexus Juvenil</strong></p>
+  </div>
+  <p class="lema" data-cfg="evento.lema">Hay un gozo que comienza cuando alguien es encontrado</p>
+</header>
+
+<section class="seccion marco reveal" id="video">
+  <p class="kicker">Edición especial</p>
+  <h2>Así empieza la búsqueda</h2>
+  <div class="video-wrap">
+    <video id="video-intro" controls playsinline preload="none"><source type="video/mp4"></video>
+    <p class="video-aviso" id="video-aviso" hidden>Coloca tu video en<br><code>assets/video/intro.mp4</code></p>
+  </div>
+</section>
+
+<section class="seccion marco reveal" id="mensaje">
+  <p class="kicker">Última hora</p>
+  <h2>Noventa y nueve están a salvo. Una falta.</h2>
+  <p class="texto">Alguien notó el lugar vacío y salió a buscar. No se detuvo hasta encontrarla. Este sábado queremos que descubras quién es la 100 y por qué su hallazgo cambia la noche de todos.</p>
+</section>
+
+<section class="seccion marco reveal" id="galeria">
+  <p class="kicker">Archivo fotográfico</p>
+  <h2>Recortes de la búsqueda</h2>
+  <div class="grid" id="galeria-grid"></div>
+</section>
+
+<section class="seccion marco reveal" id="evento">
+  <p class="kicker">Aviso oficial</p>
+  <h2>Dónde y cuándo</h2>
+  <div class="boleto">
+    <p class="b-grande" data-cfg="evento.fechaTexto">Sábado 14 de noviembre de 2026</p>
+    <p class="b-grande" data-cfg="evento.horaTexto">4:00 p. m.</p>
+    <p class="b-grande" data-cfg="evento.lugar">Auditorio Luz y Paz</p>
+  </div>
+  <div class="acciones">
+    <button class="btn" id="compartir" type="button">Compartir invitación</button>
+    <button class="btn sec" id="calendario" type="button">Agregar al calendario</button>
+  </div>
+</section>
+
+<section class="seccion marco reveal" id="recuerdo">
+  <p class="kicker">Tu ejemplar</p>
+  <h2>Fuiste encontrado</h2>
+  <p class="texto">Escribe tu nombre y descarga tu cartel de recuerdo.</p>
+  <label class="campo" for="nombre">Tu nombre</label>
+  <input id="nombre" type="text" maxlength="28" autocomplete="given-name" placeholder="Ej.: María">
+  <canvas id="lienzo" aria-label="Vista previa de tu recuerdo"></canvas>
+  <button class="btn" id="descargar" type="button" disabled>Descargar mi recuerdo (PNG)</button>
+</section>
+
+<footer class="pie">Presenta <strong>Nexus Juvenil</strong></footer>
+</main>
+
+<dialog id="visor" aria-label="Visor de fotos">
+  <img id="visor-img" alt="">
+  <div class="visor-ctl">
+    <button class="btn sec" id="prev" type="button" aria-label="Foto anterior">‹</button>
+    <button class="btn sec" id="cerrar" type="button">Cerrar</button>
+    <button class="btn sec" id="next" type="button" aria-label="Foto siguiente">›</button>
+  </div>
+</dialog>
+<p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/recuerdo.js"></script>
+</body>
+</html>
