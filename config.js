@@ -29,5 +29,5 @@ window.CONFIG = {
     { src: "06.jpg", alt: "Foto 6 de la actividad" }
   ],
   recuerdo: { foto: "oveja.jpg" },
-  compartir: { texto: "Te invito a ¿Quién es la 100? Sábado 14 de noviembre, 4:00 p. m., Auditorio Luz y Paz. Presenta Nexus Juvenil." }
+  compartir: { texto: "99 no son el final de la historia. ¿Ya sabes quién es la 100? Este sábado 14 de noviembre, a las 4:00 pm en el auditorio Luz y Paz, tienes una cita con la respuesta." }
 };
